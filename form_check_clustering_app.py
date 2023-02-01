@@ -76,7 +76,6 @@ def predict_fn(x):
         return loaded_model.predict_proba(x)
 
 
-
 st.title('kick form check app!')
 
 mp_pose = mp.solutions.pose
